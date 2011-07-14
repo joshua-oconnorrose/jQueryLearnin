@@ -2,11 +2,19 @@
 <html>                                                                  
  <head>                                                                  
  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>          
- <script type="text/javascript">                                         
-   // we will add our javascript code here                                     
+ <script type="text/javascript">  
+ 	// this here may be a good thing to have in most every page it's an I believe and makes sure that all elements
+	// are in the document before you run something crazy              
+  $(document).ready(function() {
+   $("a").click(function() {
+     alert("Hello world!");
+ });
+   // do stuff when DOM is ready
+ });                                                          
  </script>                                                               
  </head>                                                                 
- <body>                                                                  
+ <body>            
+ <a href="">Link</a>                                                      
    <!-- we will add our HTML content here -->                                        
  </body>                                                                 
  </html>
