@@ -1,6 +1,6 @@
 jQuery(document).ready(function() {
 	// do something here
-	
+	// tests
 	// look # means ID
    $("#orderedlist").addClass("red");
    // this says for the ID ordered list get all child li tags
